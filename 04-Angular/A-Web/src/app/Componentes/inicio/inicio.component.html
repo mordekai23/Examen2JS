@@ -59,23 +59,22 @@
     </div>
 
   </div>-->
-<!--
+
   <h2>Planetas de Star Wars</h2>
   <br>
   <img src="/04-Angular/A-Web/src/assets/img/Alderaan.jpg" alt="">
-  <button class="btn btn-outline-success" (click)="cargarPlanetas()">Cargar Planetas</button>
+  <button class="btn btn-outline-success" (click)="cargarHeroes()">Cargar Planetas</button>
 
-  <div class="row">
-    <div *ngFor="let planeta of planetas; let i =index;">
-      <app-planeta-star-wars [planeta]="planeta">
+      <div class="row">
+        <div *ngFor="let heroe of heroes; let i =index;">
 
-      </app-planeta-star-wars>
--->
+          <app-heroes-dota2 [heroe]="heroe"></app-heroes-dota2>
+
 
 <!--
 
   <div class="row">
-    <div *ngFor="let planeta of planetas">
+    <div *ngFor="let planetaheroesetas">
       <div class="col-sm-4">
         <div class="card" style="width: 20rem;">
           <div class="card-block">
